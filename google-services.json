@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892895109225",
+    "project_id": "whatzapp-74a76",
+    "storage_bucket": "whatzapp-74a76.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892895109225:android:7020e0ec14222448cd42f8",
+        "android_client_info": {
+          "package_name": "com.igeneraltks.WhatZaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbbYttechtqFKvmJN8hTdm7suiPDiwtTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

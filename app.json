@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "WhatZaapp",
+    "slug": "WhatZaapp",
+    "version": "1.0.0",
+    "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.igeneraltks.WhatZaapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ff3a906-b6b9-41c1-a3b1-70bf36ed1f4f"
+      }
+    }
+  }
+}
