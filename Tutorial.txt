@@ -1,0 +1,41 @@
+npx create-expo-app --template
+npm i @react-native-firebase/app
+npm i @react-native-firebase/auth
+npm i @react-native-firebase/firestore
+npm install @react-native-picker/picker
+npm i expo
+npx expo install expo-linear-gradient
+npm i react-native-date-picker
+npm i react-native-gifted-chat
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/stack
+npx expo install react-native-gesture-handler
+code .
+coloque dentro de App.js: import "react-native-gesture-handler";
+crie o src
+
+npm install -g eas-cli
+
+npx expo install expo-dev-client
+
+eas login
+
+eas build --profile development --platform android
+
+eas credentials 
+>android
+>development
+>keystore
+>new key - default
+pegue a SHA1 nova e insira na firebase
+baixe o json da firebase
+
+coloque dentro de expo em app.json abaixo de version: "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
+esse na primeira linha de android: "googleServicesFile": "./google-services.json",
+
+eas build --profile development --platform android
+abra no dispositivo, baixe o arquivo, abra o expo go, acesse o qr code novamente
+
+para rodar:
+npx expo start -c
